@@ -31,18 +31,12 @@ This project aims to identify the least fire, flood, and landslide-prone areas i
 
 1. Download the required datasets from the sources listed below and place them in a folder called "data"
 
-2. Create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the dashboard:
+3. Run the dashboard:
 ```bash
 streamlit run dashboard.py
 ```
