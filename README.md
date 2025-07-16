@@ -4,7 +4,7 @@ A comprehensive data visualization dashboard for analyzing fire, flood, and land
 
 ## Project Overview
 
-This project aims to identify the least fire, flood, and landslide-prone areas in Oregon through advanced geospatial analysis and interactive data visualization. Using multiple visualization techniques including dot maps, bubble maps, bar charts, and uncertainty maps, the dashboard provides insights into natural hazard patterns across Oregon's 36 counties.
+This project aims to identify the least fire, flood, and landslide-prone areas in Oregon through advanced geospatial analysis and interactive data visualization. Using multiple visualization techniques, including dot maps, bubble maps, bar charts, and uncertainty maps, the dashboard provides insights into natural hazard patterns across Oregon's counties.
 
 **Key Finding:** Harney and Malheur counties emerge as the safest areas based on the comprehensive analysis of historical hazard data.
 
