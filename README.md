@@ -27,7 +27,6 @@ This project aims to identify the least fire, flood, and landslide-prone areas i
 
 ## Getting Started
 
-### Installation
 
 1. Download the required datasets from the sources listed below and place them in a folder called "data"
 
