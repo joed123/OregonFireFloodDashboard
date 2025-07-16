@@ -21,6 +21,10 @@ This project aims to identify the least fire, flood, and landslide-prone areas i
 - Flood elevation distribution analysis
 - Interactive year range filtering
 
+## Demo
+
+**Video Link for Dashboard:** https://youtu.be/CFYRwluj3Xg
+
 ## Getting Started
 
 ### Installation
@@ -43,9 +47,6 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 
-## Demo
-
-**Video Link for Dashboard:** https://youtu.be/CFYRwluj3Xg
 
 ## Data Sources
 
