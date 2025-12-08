@@ -1,6 +1,10 @@
 # Oregon Natural Hazards Dashboard
 
-A comprehensive data visualization dashboard for analyzing fire, flood, and landslide hazards across Oregon counties to identify the safest areas for living. Check out my infographic-style map, "Oregon_map.png," too!
+A comprehensive data visualization dashboard for analyzing fire, flood, and landslide hazards across Oregon counties to identify the safest areas for living. 
+
+## View it here: https://oregonfireflooddashboard.streamlit.app/
+
+Check out my infographic-style map, "Oregon_map.png," too!
 
 ## Project Overview
 
@@ -21,9 +25,6 @@ This project aims to identify the least fire, flood, and landslide-prone areas i
 - Flood elevation distribution analysis
 - Interactive year range filtering
 
-## Demo
-
-**Video Link for Dashboard:** https://youtu.be/CFYRwluj3Xg
 
 ## Getting Started
 
