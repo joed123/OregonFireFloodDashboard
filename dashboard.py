@@ -785,6 +785,11 @@ with tab0:
     total_landslides = len(landslide_gdf)
     total_flood_zones = len(flood_gdf)
 
+    st.markdown("""
+        **Key Finding**: 
+            Harney and Malheur counties emerge as the safest counties.
+        """)
+
     col1, col2, col3 = st.columns(3)
 
     with col1:
