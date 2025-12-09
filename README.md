@@ -25,6 +25,30 @@ This project aims to identify the least fire, flood, and landslide-prone areas i
 - Flood elevation distribution analysis
 - Interactive year range filtering
 
+## Project Structure
+oregon_disasters_dashboard/
+│
+├── dashboard.py              # Main Streamlit application (UI orchestration)
+├── data.py                   # Data loading functions and configuration
+├── plots.py                  # All visualization and plotting functions
+│
+├── data/                     # Data files (download from sources below)
+│   ├── tl_2019_41_prisecroads/
+│   ├── BLM_OR_County_Boundaries_Polygon_Hub_-3504410327477223647/
+│   ├── ODF_Fire_3681693300358663469.csv
+│   ├── SLIDO_Release_4p5_wMetadata.gdb/
+│   └── Oregon_Statewide_Flood_Hazards.gdb/
+│
+├── photo/
+│   └── reasonnet.png         # Causal factor network diagram
+│
+├── requirements.txt          # Python dependencies
+└── README.md                 # This file
+
+#### File Descriptions
+dashboard.py - Main application entry point that creates the Streamlit interface with six interactive tabs (Overview, Maps, Uncertainty Map, Fire Data, Landslide Data, Flood Data).
+data.py - Handles all data loading operations with caching, contains configuration constants (colors, thresholds, file paths), and county mappings. Loads data from shapefiles, CSVs, and geodatabases.
+plots.py - Contains all visualization functions including map generators (bubble, dot, uncertainty maps) and statistical charts (time series, bar charts, histograms).
 
 ## Getting Started
 
