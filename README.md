@@ -44,11 +44,10 @@ oregon_disasters_dashboard/
 │
 ├── requirements.txt          # Python dependencies
 └── README.md                 # This file
-
 #### File Descriptions
-dashboard.py - Main application entry point that creates the Streamlit interface with six interactive tabs (Overview, Maps, Uncertainty Map, Fire Data, Landslide Data, Flood Data).
-data.py - Handles all data loading operations with caching, contains configuration constants (colors, thresholds, file paths), and county mappings. Loads data from shapefiles, CSVs, and geodatabases.
-plots.py - Contains all visualization functions including map generators (bubble, dot, uncertainty maps) and statistical charts (time series, bar charts, histograms).
+- dashboard.py - Main application entry point that creates the Streamlit interface with six interactive tabs (Overview, Maps, Uncertainty Map, Fire Data, Landslide Data, Flood Data).
+- data.py - Handles all data loading operations with caching, contains configuration constants (colors, thresholds, file paths), and county mappings. Loads data from shapefiles, CSVs, and geodatabases.
+- plots.py - Contains all visualization functions including map generators (bubble, dot, uncertainty maps) and statistical charts (time series, bar charts, histograms).
 
 ## Getting Started
 
