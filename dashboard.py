@@ -236,7 +236,7 @@ with tab1:
         - ⬜ **Counties**: County boundaries (optional overlay)
         """)
     
-    st.markdown("---"
+    st.markdown("---")
 
     # Map view toggle 
     col1, col2 = st.columns([0.05, 1])
