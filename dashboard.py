@@ -91,7 +91,7 @@ flood_gdf = load_flood_data()
 # =============================================================================
 
 with tab0:
-    st.header("📊 Project Overview")
+    st.header("Project Overview")
 
     st.markdown("""
         ### Welcome to the Oregon Natural Disaster Dashboard
@@ -214,7 +214,6 @@ with tab1:
 
     st.header("Oregon Fire, Landslide, & Flood Map")
 
-  # Static Legend
     st.markdown("### Legend")
     
     legend_col1, legend_col2 = st.columns(2)
@@ -238,7 +237,7 @@ with tab1:
     
     st.markdown("---")
 
-    # Map view toggle 
+
     col1, col2 = st.columns([0.05, 1])
     with col1:
         view_toggle = st.toggle("", label_visibility="collapsed", key="map_toggle")
