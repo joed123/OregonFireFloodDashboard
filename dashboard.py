@@ -214,7 +214,31 @@ with tab1:
 
     st.header("Oregon Fire, Landslide, & Flood Map")
 
-    # --- Map view toggle ---
+  # Static Legend
+    st.markdown("### Legend")
+    
+    legend_col1, legend_col2 = st.columns(2)
+    
+    with legend_col1:
+        st.markdown("""
+        **Bubble Map**
+        - 🔴 **Fires**: Bubble size = fire size (acres)
+        - 🟤 **Landslides**: Bubble size = volume (cubic feet)
+        """)
+    
+    with legend_col2:
+        st.markdown("""
+        **Dot Map**
+        - 🔴 **Fires**: Individual fire locations
+        - 🟤 **Landslides**: Individual landslide locations
+        - 🔵 **Flood Zones**: FEMA flood zone areas
+        - ⚫ **Roads**: Road network (optional overlay)
+        - ⬜ **Counties**: County boundaries (optional overlay)
+        """)
+    
+    st.markdown("---"
+
+    # Map view toggle 
     col1, col2 = st.columns([0.05, 1])
     with col1:
         view_toggle = st.toggle("", label_visibility="collapsed", key="map_toggle")
@@ -300,6 +324,16 @@ with tab2:
     - **Landslide Uncertainty**: How certain we are that low-slope terrain results in fewer landslides.  
     - **Flood Uncertainty**: How certain we are that high elevation results in fewer floods.
     """)
+
+  # Static Legend
+    st.markdown("### Legend")
+    st.markdown("""
+    **Confidence Levels** (based on evidence strength for causal relationships):
+    - 🟢 **High Confidence (Green)**: Strong evidence supports the relationship
+    - 🟡 **Medium Confidence (Yellow)**: Moderate evidence, some uncertainty remains
+    - 🔴 **Low Confidence (Red)**: Limited evidence, high uncertainty
+    """)
+    st.markdown("---")
 
 
     show_roads = True
