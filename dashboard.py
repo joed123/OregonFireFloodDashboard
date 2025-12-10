@@ -221,19 +221,19 @@ with tab1:
     
     with legend_col1:
         st.markdown("""
-        **Bubble Map**
-        - 🔴 **Fires**: Bubble size = fire size (acres)
-        - 🟤 **Landslides**: Bubble size = volume (cubic feet)
-        """)
-    
-    with legend_col2:
-        st.markdown("""
         **Dot Map**
         - 🔴 **Fires**: Individual fire locations
         - 🟤 **Landslides**: Individual landslide locations
         - 🔵 **Flood Zones**: FEMA flood zone areas
         - ⚫ **Roads**: Road network (optional overlay)
         - ⬜ **Counties**: County boundaries (optional overlay)
+        """)
+    
+    with legend_col2:
+      st.markdown("""
+        **Bubble Map**
+        - 🔴 **Fires**: Bubble size = fire size (acres)
+        - 🟤 **Landslides**: Bubble size = volume (cubic feet)
         """)
     
     st.markdown("---")
